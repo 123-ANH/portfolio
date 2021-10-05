@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;300;500;700;900&family=Tourney:wght@100;200;300;400;800;900&display=swap');
+body{
+	font-family: 'Commissioner', sans-serif;
+}
+h1, h2{
+	font-family: 'Tourney', cursive;
+}
+/*.banner-banthan{ min-height: 600px}*/
+section{ min-height: 600px; padding: 100px 0;}
+
+.bg-black{
+	background: black;
+}
+#experience{
+	background: url("../img/nature-6572635_1280.webp") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#services{
+	background: url("../img/she.png")no-repeat center bottom;
+	background-size: 35%;
+}
+@media(max-width:992px){
+	#services{
+		background: none;
+	}
+}
